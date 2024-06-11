@@ -42,9 +42,10 @@ jobs:
             rsync -av --exclude=temp_deploy/ * temp_deploy/
             lftp -c "
             open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST;
-            mirror --reverse --delete --verbose temp_deploy /public_html/your_subdirectory;
+            mirror --reverse --delete --verbose temp_deploy /badregplc.com/lps;
             bye;
             "
+       
 
       - name: Clean up
         run: rm -rf temp_deploy
