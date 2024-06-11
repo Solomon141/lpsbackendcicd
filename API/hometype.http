@@ -1,0 +1,17 @@
+
+POST http://localhost:8000/home_type/hometypes/bulkinsert
+Content-Type: application/json
+
+[{
+  "enName": "Condominium",
+  "amName": "ኮንደምንየም",
+  "pricepercaremeter": 50000
+},{
+  "enName": "Apartama",
+  "amName": "አፓርታማ",
+  "pricepercaremeter": 75000
+},{
+  "enName": "Villa",
+  "amName": "ቪላ/ቤት",
+  "pricepercaremeter": 100000
+}]

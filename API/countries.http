@@ -1,0 +1,1292 @@
+
+POST http://localhost:8000/checklist/checklists/bulkinsert
+Content-Type: application/json
+
+
+[
+  {
+    "parent": 14,
+    "enName": "ETHIOPIA",
+    "amName": "ETHIOPIAN"
+  },
+  {
+    "parent": 14,
+    "enName": "KENYA",
+    "amName": "KENYA"
+  },
+  {
+    "parent": 14,
+    "enName": "AUSTRALIAN",
+    "amName": "AUSTRALIA"
+  },
+  {
+    "parent": 14,
+    "enName": "swedish ",
+    "amName": "swedish"
+  },
+  {
+    "parent": 14,
+    "enName": "ANDORRIAN",
+    "amName": "ANDORRA"
+  },
+  {
+    "parent": 14,
+    "enName": "ANGOLAN",
+    "amName": "ANGOLA"
+  },
+  {
+    "parent": 14,
+    "enName": "ANGUILLA",
+    "amName": "ANGUILLA"
+  },
+  {
+    "parent": 14,
+    "enName": "ALBANIAN",
+    "amName": "ALBANIA"
+  },
+  {
+    "parent": 14,
+    "enName": "NETHERLANDS ANTILLES",
+    "amName": "NETHERLANDS ANTILLES"
+  },
+  {
+    "parent": 14,
+    "enName": "EMIRATI",
+    "amName": "UNITED ARAB EMIRATES"
+  },
+  {
+    "parent": 14,
+    "enName": "ARGENTINIAN",
+    "amName": "ARGENTINA"
+  },
+  {
+    "parent": 14,
+    "enName": "ARMENIAN",
+    "amName": "ARMENIA"
+  },
+  {
+    "parent": 14,
+    "enName": "SAMOAN",
+    "amName": "AMERICA SAMOA"
+  },
+  {
+    "parent": 14,
+    "enName": "FRENCH SOUTHERN TERRITORIES",
+    "amName": "FRENCH SOUTHERN TERRITORIES"
+  },
+  {
+    "parent": 14,
+    "enName": "ANTIGUA AND BARBUDA",
+    "amName": "ANTIGUA AND BARBUDA"
+  },
+  {
+    "parent": 14,
+    "enName": "AUSTRIAN",
+    "amName": "AUSTRIA"
+  },
+  {
+    "parent": 14,
+    "enName": "ARUBA",
+    "amName": "ARUBA"
+  },
+  {
+    "parent": 14,
+    "enName": "AZERBAIJANI",
+    "amName": "AZERBAIJAN"
+  },
+  {
+    "parent": 14,
+    "enName": "BURUNDI",
+    "amName": "BURUNDI"
+  },
+  {
+    "parent": 14,
+    "enName": "BELGIUM",
+    "amName": "BELGIUM"
+  },
+  {
+    "parent": 14,
+    "enName": "BENIN",
+    "amName": "BENIN"
+  },
+  {
+    "parent": 14,
+    "enName": "BURKINA FASO",
+    "amName": "BURKINA FASO"
+  },
+  {
+    "parent": 14,
+    "enName": "BANGLADESHI",
+    "amName": "BANGLADESH"
+  },
+  {
+    "parent": 14,
+    "enName": "BULGARIA",
+    "amName": "BULGARIA"
+  },
+  {
+    "parent": 14,
+    "enName": "BAHRAINI",
+    "amName": "BAHRAIN"
+  },
+  {
+    "parent": 14,
+    "enName": "BAHAMAS",
+    "amName": "BAHAMAS"
+  },
+  {
+    "parent": 14,
+    "enName": "BOSNIAN",
+    "amName": "BOSNIA & HERZEGOVINA"
+  },
+  {
+    "parent": 14,
+    "enName": "BELARUS",
+    "amName": "BELARUS"
+  },
+  {
+    "parent": 14,
+    "enName": "BELIZE",
+    "amName": "BELIZE"
+  },
+  {
+    "parent": 14,
+    "enName": "BERMUDA",
+    "amName": "BERMUDA"
+  },
+  {
+    "parent": 14,
+    "enName": "BOLIVIAN",
+    "amName": "BOLIVIA"
+  },
+  {
+    "parent": 14,
+    "enName": "BRAZILIAN",
+    "amName": "BRAZIL"
+  },
+  {
+    "parent": 14,
+    "enName": "BARBADOS",
+    "amName": "BARBADOS"
+  },
+  {
+    "parent": 14,
+    "enName": "BRUNEI DARUSSALAM",
+    "amName": "BRUNEI DARUSSALAM"
+  },
+  {
+    "parent": 14,
+    "enName": "BHUTANI",
+    "amName": "BHUTAN"
+  },
+  {
+    "parent": 14,
+    "enName": "BOUVET ISLAND",
+    "amName": "BOUVET ISLAND"
+  },
+  {
+    "parent": 14,
+    "enName": "BOTSWANAN",
+    "amName": "BOTSWANA"
+  },
+  {
+    "parent": 14,
+    "enName": "CENTRAL AFRICAN REPUBLIC",
+    "amName": "CENTRAL AFRICAN REPUBLIC"
+  },
+  {
+    "parent": 14,
+    "enName": "CANADIAN",
+    "amName": "CANADA"
+  },
+  {
+    "parent": 14,
+    "enName": "COCAS (KEELING) ISLANDS",
+    "amName": "COCAS (KEELING) ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "SWISS",
+    "amName": "SWITZERLAND"
+  },
+  {
+    "parent": 14,
+    "enName": "CHILIAN",
+    "amName": "CHILE"
+  },
+  {
+    "parent": 14,
+    "enName": "CHINESE",
+    "amName": "CHINA"
+  },
+  {
+    "parent": 14,
+    "enName": "COTE D'IVOIRE",
+    "amName": "COTE D'IVOIRE"
+  },
+  {
+    "parent": 14,
+    "enName": "CAMEROON",
+    "amName": "CAMEROON"
+  },
+  {
+    "parent": 14,
+    "enName": "CONGO",
+    "amName": "CONGO"
+  },
+  {
+    "parent": 14,
+    "enName": "COOK ISLANDS",
+    "amName": "COOK ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "COLUMBIAN",
+    "amName": "COLUMBIA"
+  },
+  {
+    "parent": 14,
+    "enName": "COMOROS",
+    "amName": "COMOROS"
+  },
+  {
+    "parent": 14,
+    "enName": "CAPE VERDE",
+    "amName": "CAPE VERDE"
+  },
+  {
+    "parent": 14,
+    "enName": "COSTA RICAN",
+    "amName": "COSTA RICA"
+  },
+  {
+    "parent": 14,
+    "enName": "CUBAN",
+    "amName": "CUBA"
+  },
+  {
+    "parent": 14,
+    "enName": "CHRISTMAS ISLAND",
+    "amName": "CHRISTMAS ISLAND"
+  },
+  {
+    "parent": 14,
+    "enName": "CAYMAN ISLANDS",
+    "amName": "CAYMAN ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "CYPRIATE",
+    "amName": "CYPRUS"
+  },
+  {
+    "parent": 14,
+    "enName": "CZECH",
+    "amName": "CZECH REPUBLIC"
+  },
+  {
+    "parent": 14,
+    "enName": "GERMAN",
+    "amName": "GERMANY"
+  },
+  {
+    "parent": 14,
+    "enName": "DJIBOUTIAN",
+    "amName": "DJIBOUTI"
+  },
+  {
+    "parent": 14,
+    "enName": "DOMINICA",
+    "amName": "DOMINICA"
+  },
+  {
+    "parent": 14,
+    "enName": "DANISH",
+    "amName": "DENMARK"
+  },
+  {
+    "parent": 14,
+    "enName": "DOMINICAN REPUBLIC",
+    "amName": "DOMINICAN REPUBLIC"
+  },
+  {
+    "parent": 14,
+    "enName": "ALGERIA",
+    "amName": "ALGERIA"
+  },
+  {
+    "parent": 14,
+    "enName": "ECUADOR",
+    "amName": "ECUADOR"
+  },
+  {
+    "parent": 14,
+    "enName": "EGYPTIAN",
+    "amName": "EGYPT"
+  },
+  {
+    "parent": 14,
+    "enName": "WESTERN SAHARA",
+    "amName": "WESTERN SAHARA"
+  },
+  {
+    "parent": 14,
+    "enName": "SPANISH",
+    "amName": "SPAIN"
+  },
+  {
+    "parent": 14,
+    "enName": "ESTONIAN",
+    "amName": "ESTONIA"
+  },
+  {
+    "parent": 14,
+    "enName": "FINNISH",
+    "amName": "FINLAND"
+  },
+  {
+    "parent": 14,
+    "enName": "MALVINIAN",
+    "amName": "FALKLAND ISLANDS (MALVINAS)"
+  },
+  {
+    "parent": 14,
+    "enName": "FRENCH",
+    "amName": "FRANCE"
+  },
+  {
+    "parent": 14,
+    "enName": "FAROE ISLANDS",
+    "amName": "FAROE ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "MICRONESIAN",
+    "amName": "MICRONESIA (FEDERATED STATES OF)"
+  },
+  {
+    "parent": 14,
+    "enName": "FRANCE METROPOLITAN",
+    "amName": "FRANCE METROPOLITAN"
+  },
+  {
+    "parent": 14,
+    "enName": "SRI LANKAN",
+    "amName": "SRI LANKA"
+  },
+  {
+    "parent": 14,
+    "enName": "LESOTHO",
+    "amName": "LESOTHO"
+  },
+  {
+    "parent": 14,
+    "enName": "LITHUANIA",
+    "amName": "LITHUANIA"
+  },
+  {
+    "parent": 14,
+    "enName": "LUXEMBOURG",
+    "amName": "LUXEMBOURG"
+  },
+  {
+    "parent": 14,
+    "enName": "LATVIAN",
+    "amName": "LATVIA"
+  },
+  {
+    "parent": 14,
+    "enName": "MACAU",
+    "amName": "MACAU"
+  },
+  {
+    "parent": 14,
+    "enName": "MOROCCAN",
+    "amName": "MOROCCO"
+  },
+  {
+    "parent": 14,
+    "enName": "MONACO",
+    "amName": "MONACO"
+  },
+  {
+    "parent": 14,
+    "enName": "MOLDOVIAN",
+    "amName": "REPUBLIC OF MOLDOVA"
+  },
+  {
+    "parent": 14,
+    "enName": "MALAGASY",
+    "amName": "MADAGASCAR"
+  },
+  {
+    "parent": 14,
+    "enName": "MALDIVES",
+    "amName": "MALDIVES"
+  },
+  {
+    "parent": 14,
+    "enName": "MEXICAN",
+    "amName": "MEXICO"
+  },
+  {
+    "parent": 14,
+    "enName": "MARSHALL ISLANDS",
+    "amName": "MARSHALL ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "MACEDONIAN",
+    "amName": "FORMER YUGOSLAV REPUBLIC OF MACEDONIA"
+  },
+  {
+    "parent": 14,
+    "enName": "MALI",
+    "amName": "MALI"
+  },
+  {
+    "parent": 14,
+    "enName": "MALTESE",
+    "amName": "MALTA"
+  },
+  {
+    "parent": 14,
+    "enName": "MYANMAR",
+    "amName": "MYANMAR"
+  },
+  {
+    "parent": 14,
+    "enName": "MONGOLIAN",
+    "amName": "MONGOLIA"
+  },
+  {
+    "parent": 14,
+    "enName": "NORTHERN MARIANA ISLANDS",
+    "amName": "NORTHERN MARIANA ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "MOZAMBIQUE",
+    "amName": "MOZAMBIQUE"
+  },
+  {
+    "parent": 14,
+    "enName": "MAURITANIAN",
+    "amName": "MAURITANIA"
+  },
+  {
+    "parent": 14,
+    "enName": "MONTSERRAT",
+    "amName": "MONTSERRAT"
+  },
+  {
+    "parent": 14,
+    "enName": "MARTINIQUE",
+    "amName": "MARTINIQUE"
+  },
+  {
+    "parent": 14,
+    "enName": "MAURITIUS",
+    "amName": "MAURITIUS"
+  },
+  {
+    "parent": 14,
+    "enName": "MALAWI",
+    "amName": "MALAWI"
+  },
+  {
+    "parent": 14,
+    "enName": "MALAYSIAN",
+    "amName": "MALAYSIA"
+  },
+  {
+    "parent": 14,
+    "enName": "MAYOTTE",
+    "amName": "MAYOTTE"
+  },
+  {
+    "parent": 14,
+    "enName": "NAMIBIAN",
+    "amName": "NAMIBIA"
+  },
+  {
+    "parent": 14,
+    "enName": "CALEDONIAN",
+    "amName": "NEW CALEDONIA"
+  },
+  {
+    "parent": 14,
+    "enName": "NIGER",
+    "amName": "NIGER"
+  },
+  {
+    "parent": 14,
+    "enName": "NORFOLK ISLAND",
+    "amName": "NORFOLK ISLAND"
+  },
+  {
+    "parent": 14,
+    "enName": "NIGERIAN",
+    "amName": "NIGERIA"
+  },
+  {
+    "parent": 14,
+    "enName": "NICARAGUAN",
+    "amName": "NICARAGUA"
+  },
+  {
+    "parent": 14,
+    "enName": "NIUE",
+    "amName": "NIUE"
+  },
+  {
+    "parent": 14,
+    "enName": "DUTCH",
+    "amName": "NETHERLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "NORWEGIAN",
+    "amName": "NORWAY"
+  },
+  {
+    "parent": 14,
+    "enName": "NEPAL",
+    "amName": "NEPAL"
+  },
+  {
+    "parent": 14,
+    "enName": "NAURU",
+    "amName": "NAURU"
+  },
+  {
+    "parent": 14,
+    "enName": "NEWZEALAND",
+    "amName": "NEW ZEALAND"
+  },
+  {
+    "parent": 14,
+    "enName": "OMAN",
+    "amName": "OMAN"
+  },
+  {
+    "parent": 14,
+    "enName": "PAKISTANI",
+    "amName": "PAKISTAN"
+  },
+  {
+    "parent": 14,
+    "enName": "PANAMIAN",
+    "amName": "PANAMA"
+  },
+  {
+    "parent": 14,
+    "enName": "PITCAIRN",
+    "amName": "PITCAIRN"
+  },
+  {
+    "parent": 14,
+    "enName": "PERVIAN",
+    "amName": "PERU"
+  },
+  {
+    "parent": 14,
+    "enName": "PHILIPPINO",
+    "amName": "PHILIPPINES"
+  },
+  {
+    "parent": 14,
+    "enName": "PALAU",
+    "amName": "PALAU"
+  },
+  {
+    "parent": 14,
+    "enName": "PAPAU NEW GUINEA",
+    "amName": "PAPAU NEW GUINEA"
+  },
+  {
+    "parent": 14,
+    "enName": "POLISH",
+    "amName": "POLAND"
+  },
+  {
+    "parent": 14,
+    "enName": "PUERTO RICAN",
+    "amName": "PUERTO RICO"
+  },
+  {
+    "parent": 14,
+    "enName": "S. KOREAN",
+    "amName": "REPUBLIC OF KORIA"
+  },
+  {
+    "parent": 14,
+    "enName": "PORTUGAL",
+    "amName": "PORTUGAL"
+  },
+  {
+    "parent": 14,
+    "enName": "PARAGUAY",
+    "amName": "PARAGUAY"
+  },
+  {
+    "parent": 14,
+    "enName": "POLYNESIAN",
+    "amName": "FRENCH POLYNESIA"
+  },
+  {
+    "parent": 14,
+    "enName": "QATAR",
+    "amName": "QATAR"
+  },
+  {
+    "parent": 14,
+    "enName": "REUNION",
+    "amName": "REUNION"
+  },
+  {
+    "parent": 14,
+    "enName": "ROMANIAN",
+    "amName": "ROMANIA"
+  },
+  {
+    "parent": 14,
+    "enName": "RUSSIAN",
+    "amName": "RUSSIAN FEDERATION"
+  },
+  {
+    "parent": 14,
+    "enName": "RWANDAN",
+    "amName": "RWANDA"
+  },
+  {
+    "parent": 14,
+    "enName": "SAUDI",
+    "amName": "SAUDI ARABIA"
+  },
+  {
+    "parent": 14,
+    "enName": "SUDANI",
+    "amName": "SUDAN"
+  },
+  {
+    "parent": 14,
+    "enName": "SENEGAL",
+    "amName": "SENEGAL"
+  },
+  {
+    "parent": 14,
+    "enName": "SINGAPORE",
+    "amName": "SINGAPORE"
+  },
+  {
+    "parent": 14,
+    "enName": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISL",
+    "amName": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISL"
+  },
+  {
+    "parent": 14,
+    "enName": "ST. HELENA",
+    "amName": "ST. HELENA"
+  },
+  {
+    "parent": 14,
+    "enName": "SVALBARD AND JAN MAYEN",
+    "amName": "SVALBARD AND JAN MAYEN"
+  },
+  {
+    "parent": 14,
+    "enName": "SOLOMON ISLANDS",
+    "amName": "SOLOMON ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "SIERRA LEONE",
+    "amName": "SIERRA LEONE"
+  },
+  {
+    "parent": 14,
+    "enName": "EL SALVADOR",
+    "amName": "EL SALVADOR"
+  },
+  {
+    "parent": 14,
+    "enName": "SAN MARINO",
+    "amName": "SAN MARINO"
+  },
+  {
+    "parent": 14,
+    "enName": "SOMALIAN",
+    "amName": "SOMALIA"
+  },
+  {
+    "parent": 14,
+    "enName": "ST. PIERRE AND MIQUELON",
+    "amName": "ST. PIERRE AND MIQUELON"
+  },
+  {
+    "parent": 14,
+    "enName": "SAO TOME AND PRINCIPE",
+    "amName": "SAO TOME AND PRINCIPE"
+  },
+  {
+    "parent": 14,
+    "enName": "SURIenName",
+    "amName": "SURIenName"
+  },
+  {
+    "parent": 14,
+    "enName": "SLOVAKIAN",
+    "amName": "SLOVAKIA"
+  },
+  {
+    "parent": 14,
+    "enName": "SLOVENIAN",
+    "amName": "SLOVENIA"
+  },
+  {
+    "parent": 14,
+    "enName": "GABON",
+    "amName": "GABON"
+  },
+  {
+    "parent": 14,
+    "enName": "BRITISH",
+    "amName": "UNITED KINGDOM BRITISH CITIZEN"
+  },
+  {
+    "parent": 14,
+    "enName": "GEORGIAN",
+    "amName": "GEORGIA"
+  },
+  {
+    "parent": 14,
+    "enName": "GHANA",
+    "amName": "GHANA"
+  },
+  {
+    "parent": 14,
+    "enName": "GIBRALTAR",
+    "amName": "GIBRALTAR"
+  },
+  {
+    "parent": 14,
+    "enName": "GUINEA",
+    "amName": "GUINEA"
+  },
+  {
+    "parent": 14,
+    "enName": "GUADELUPE",
+    "amName": "GUADELUPE"
+  },
+  {
+    "parent": 14,
+    "enName": "GAMBIAN",
+    "amName": "GAMBIA"
+  },
+  {
+    "parent": 14,
+    "enName": "EQUATORIAL GUINEA",
+    "amName": "EQUATORIAL GUINEA"
+  },
+  {
+    "parent": 14,
+    "enName": "GREEK",
+    "amName": "GREECE"
+  },
+  {
+    "parent": 14,
+    "enName": "GRENADA",
+    "amName": "GRENADA"
+  },
+  {
+    "parent": 14,
+    "enName": "GREENLAND",
+    "amName": "GREENLAND"
+  },
+  {
+    "parent": 14,
+    "enName": "GUATEMALAN",
+    "amName": "GUATEMALA"
+  },
+  {
+    "parent": 14,
+    "enName": "FRENCH GUIANA",
+    "amName": "FRENCH GUIANA"
+  },
+  {
+    "parent": 14,
+    "enName": "GUAM",
+    "amName": "GUAM"
+  },
+  {
+    "parent": 14,
+    "enName": "GUYANA",
+    "amName": "GUYANA"
+  },
+  {
+    "parent": 14,
+    "enName": "HONG KONG",
+    "amName": "HONG KONG"
+  },
+  {
+    "parent": 14,
+    "enName": "HEARD AND MCDONALD ISLANDS",
+    "amName": "HEARD AND MCDONALD ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "HONDURAS",
+    "amName": "HONDURAS"
+  },
+  {
+    "parent": 14,
+    "enName": "CROATIAN",
+    "amName": "CROATIA"
+  },
+  {
+    "parent": 14,
+    "enName": "HAITI",
+    "amName": "HAITI"
+  },
+  {
+    "parent": 14,
+    "enName": "HUNGARIAN",
+    "amName": "HUNGARY"
+  },
+  {
+    "parent": 14,
+    "enName": "INDONESIAN",
+    "amName": "INDONESIA"
+  },
+  {
+    "parent": 14,
+    "enName": "INDIAN",
+    "amName": "INDIA"
+  },
+  {
+    "parent": 14,
+    "enName": "BRITISH INDIAN OCEAN TERR.",
+    "amName": "BRITISH INDIAN OCEAN TERR."
+  },
+  {
+    "parent": 14,
+    "enName": "IRISH",
+    "amName": "IRELAND"
+  },
+  {
+    "parent": 14,
+    "enName": "IRANIAN",
+    "amName": "ISLAMIC REPUBLIC OF IRAN"
+  },
+  {
+    "parent": 14,
+    "enName": "IRAQI",
+    "amName": "IRAQ"
+  },
+  {
+    "parent": 14,
+    "enName": "ICELAND",
+    "amName": "ICELAND"
+  },
+  {
+    "parent": 14,
+    "enName": "ISRAELI",
+    "amName": "ISRAEL"
+  },
+  {
+    "parent": 14,
+    "enName": "ITALIAN",
+    "amName": "ITALY"
+  },
+  {
+    "parent": 14,
+    "enName": "JAMAICAN",
+    "amName": "JAMAICA"
+  },
+  {
+    "parent": 14,
+    "enName": "JORDIAN",
+    "amName": "JORDAN"
+  },
+  {
+    "parent": 14,
+    "enName": "JAPANESE",
+    "amName": "JAPAN"
+  },
+  {
+    "parent": 14,
+    "enName": "KAZAKHSTANI",
+    "amName": "KAZAKHSTAN"
+  },
+  {
+    "parent": 14,
+    "enName": "KYRGYZSTANI",
+    "amName": "KYRGYZSTAN"
+  },
+  {
+    "parent": 14,
+    "enName": "CAMBODIAN",
+    "amName": "CAMBODIA"
+  },
+  {
+    "parent": 14,
+    "enName": "KIRIBATI",
+    "amName": "KIRIBATI"
+  },
+  {
+    "parent": 14,
+    "enName": "SAINT KITTS AND NEVIS",
+    "amName": "SAINT KITTS AND NEVIS"
+  },
+  {
+    "parent": 14,
+    "enName": "N. KOREAN",
+    "amName": "PEOPLE REPUBLICK OF KORIA"
+  },
+  {
+    "parent": 14,
+    "enName": "KUWAITI",
+    "amName": "KUWAIT"
+  },
+  {
+    "parent": 14,
+    "enName": "LAOSIAN",
+    "amName": "LAOS PEOPLE'S DEMOCRATIC REPUBLIC"
+  },
+  {
+    "parent": 14,
+    "enName": "LEBANESE",
+    "amName": "LEBANON"
+  },
+  {
+    "parent": 14,
+    "enName": "LIBERIAN",
+    "amName": "LIBERIA"
+  },
+  {
+    "parent": 14,
+    "enName": "LIBYAN",
+    "amName": "LIBYAN ARAB JAMAHIRIYA"
+  },
+  {
+    "parent": 14,
+    "enName": "SAINT LUCIA",
+    "amName": "SAINT LUCIA"
+  },
+  {
+    "parent": 14,
+    "enName": "LIECHTENSTEIN",
+    "amName": "LIECHTENSTEIN"
+  },
+  {
+    "parent": 14,
+    "enName": "SWEDISH",
+    "amName": "SWEDEN"
+  },
+  {
+    "parent": 14,
+    "enName": "SWAZILAND",
+    "amName": "SWAZILAND"
+  },
+  {
+    "parent": 14,
+    "enName": "SEYCHELLES",
+    "amName": "SEYCHELLES"
+  },
+  {
+    "parent": 14,
+    "enName": "SYRIAN",
+    "amName": "SYRIAN ARAB REPUBLIC"
+  },
+  {
+    "parent": 14,
+    "enName": "TURKS AND CAICOS ISLANDS",
+    "amName": "TURKS AND CAICOS ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "CHAD",
+    "amName": "CHAD"
+  },
+  {
+    "parent": 14,
+    "enName": "TOGO",
+    "amName": "TOGO"
+  },
+  {
+    "parent": 14,
+    "enName": "THAI",
+    "amName": "THAILAND"
+  },
+  {
+    "parent": 14,
+    "enName": "TAJIKISTANI",
+    "amName": "TAJIKISTAN"
+  },
+  {
+    "parent": 14,
+    "enName": "TOKELAU",
+    "amName": "TOKELAU"
+  },
+  {
+    "parent": 14,
+    "enName": "TURKMENISTAN",
+    "amName": "TURKMENISTAN"
+  },
+  {
+    "parent": 14,
+    "enName": "EAST TIMOR",
+    "amName": "EAST TIMOR"
+  },
+  {
+    "parent": 14,
+    "enName": "TONGAN",
+    "amName": "TONGA"
+  },
+  {
+    "parent": 14,
+    "enName": "TRINIDAD AND TOBAGO",
+    "amName": "TRINIDAD AND TOBAGO"
+  },
+  {
+    "parent": 14,
+    "enName": "TUNISIAN",
+    "amName": "TUNISIA"
+  },
+  {
+    "parent": 14,
+    "enName": "TURKISH",
+    "amName": "TURKEY"
+  },
+  {
+    "parent": 14,
+    "enName": "TUVALU",
+    "amName": "TUVALU"
+  },
+  {
+    "parent": 14,
+    "enName": "TAIWANESE",
+    "amName": "TAIWAN"
+  },
+  {
+    "parent": 14,
+    "enName": "TANZANIAN",
+    "amName": "UNITED REPUBLIC OF TANZANIA"
+  },
+  {
+    "parent": 14,
+    "enName": "UGANDAN",
+    "amName": "UGANDA"
+  },
+  {
+    "parent": 14,
+    "enName": "UKRAINIAN",
+    "amName": "UKRAINE"
+  },
+  {
+    "parent": 14,
+    "enName": "UNITED STATES MINOR OUTLYING ISLANDS",
+    "amName": "UNITED STATES MINOR OUTLYING ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "SPECIALIZED AGENCY OF UNITED NATIONS",
+    "amName": "SPECIALIZED AGENCY OF UNITED NATIONS"
+  },
+  {
+    "parent": 14,
+    "enName": "UNITED NATIONS ORGANIZATION",
+    "amName": "UNITED NATIONS ORGANIZATION"
+  },
+  {
+    "parent": 14,
+    "enName": "URUGUAY",
+    "amName": "URUGUAY"
+  },
+  {
+    "parent": 14,
+    "enName": "AMERICAN",
+    "amName": "UNITED STATES"
+  },
+  {
+    "parent": 14,
+    "enName": "UTOPIAN",
+    "amName": "UTOPIA"
+  },
+  {
+    "parent": 14,
+    "enName": "UZBEKISTANI",
+    "amName": "UZBEKISTAN"
+  },
+  {
+    "parent": 14,
+    "enName": "VATICAN CITY STATE (HOLY SEE)",
+    "amName": "VATICAN CITY STATE (HOLY SEE)"
+  },
+  {
+    "parent": 14,
+    "enName": "SAINT VINCENT AND THE GRENADINES",
+    "amName": "SAINT VINCENT AND THE GRENADINES"
+  },
+  {
+    "parent": 14,
+    "enName": "VENEZUELAN",
+    "amName": "VENEZUELA"
+  },
+  {
+    "parent": 14,
+    "enName": "VIRGIN ISLANDS (BRITISH)",
+    "amName": "VIRGIN ISLANDS (BRITISH)"
+  },
+  {
+    "parent": 14,
+    "enName": "VIRGIN ISLANDS(US.)",
+    "amName": "VIRGIN ISLANDS(US)"
+  },
+  {
+    "parent": 14,
+    "enName": "VIETNAM",
+    "amName": "VIETNAM"
+  },
+  {
+    "parent": 14,
+    "enName": "VANUATU",
+    "amName": "VANUATU"
+  },
+  {
+    "parent": 14,
+    "enName": "WALLIS AND FUTUNA ISLANDS",
+    "amName": "WALLIS AND FUTUNA ISLANDS"
+  },
+  {
+    "parent": 14,
+    "enName": "SAMOAN",
+    "amName": "SAMOA"
+  },
+  {
+    "parent": 14,
+    "enName": "STATELESS PERSON",
+    "amName": "STATELESS PERSON"
+  },
+  {
+    "parent": 14,
+    "enName": "REFUGEE ( 1951 CONVENTION)",
+    "amName": "REFUGEE ( 1951 CONVENTION)"
+  },
+  {
+    "parent": 14,
+    "enName": "REFUGEE (OTHER)",
+    "amName": "REFUGEE (OTHER)"
+  },
+  {
+    "parent": 14,
+    "enName": "YEMEN",
+    "amName": "YEMEN"
+  },
+  {
+    "parent": 14,
+    "enName": "YUGOSLAVIA",
+    "amName": "YUGOSLAVIA"
+  },
+  {
+    "parent": 14,
+    "enName": "SOUTH AFRICA",
+    "amName": "SOUTH AFRICA"
+  },
+  {
+    "parent": 14,
+    "enName": "ZAIRE",
+    "amName": "ZAIRE"
+  },
+  {
+    "parent": 14,
+    "enName": "ZAMBIA",
+    "amName": "ZAMBIA"
+  },
+  {
+    "parent": 14,
+    "enName": "ZIMBABWE",
+    "amName": "ZIMBABWE"
+  },
+  {
+    "parent": 14,
+    "enName": "CONGOLAISE",
+    "amName": "DEMOCRATIC REPUBLIC OF CONGO"
+  },
+  {
+    "parent": 14,
+    "enName": "AFGHANISTAN",
+    "amName": "AFGHANISTAN"
+  },
+  {
+    "parent": 14,
+    "enName": "ANTARCTICA",
+    "amName": "ANTARCTICA"
+  },
+  {
+    "parent": 14,
+    "enName": "FIJIAN",
+    "amName": "FIJI"
+  },
+  {
+    "parent": 14,
+    "enName": "GUINEA-BISSAUAN",
+    "amName": "GUINEA-BISSAU"
+  },
+  {
+    "parent": 14,
+    "enName": "UAE",
+    "amName": "UNITED ARAB EMIRATE"
+  },
+  {
+    "parent": 14,
+    "enName": "PALISTINIAN",
+    "amName": "PALISTINE"
+  },
+  {
+    "parent": 14,
+    "enName": "SAHRAWI",
+    "amName": "SAHRAWI ARAB DEMOCRATIC REPUBLIC"
+  },
+  {
+    "parent": 14,
+    "enName": "CONGOLAISE",
+    "amName": "REPUBLIC OF CONGO BRAZZAVILLE"
+  },
+  {
+    "parent": 14,
+    "enName": "VINCENTIAN",
+    "amName": "St. Vincent and the Grenadines"
+  },
+  {
+    "parent": 14,
+    "enName": "SOMALILAND",
+    "amName": "SOMALILAND"
+  },
+  {
+    "parent": 14,
+    "enName": "SRPSKO",
+    "amName": "Republic of Serbia"
+  },
+  {
+    "parent": 14,
+    "enName": "KOSOVAR",
+    "amName": "KOSOVO"
+  },
+  {
+    "parent": 14,
+    "enName": "SOUTH SUDANI",
+    "amName": "SOUTH SUDAN"
+  },
+  {
+    "parent": 14,
+    "enName": "ST.KITTS AND NEVIS",
+    "amName": "SAINT KITTS AND NEVIS"
+  },
+  {
+    "parent": 14,
+    "enName": "MONTENEGRIN",
+    "amName": "MONTENEGRO"
+  }
+]

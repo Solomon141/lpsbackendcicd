@@ -1,0 +1,48 @@
+
+
+
+POST http://localhost:8000/subcity/subcitys/bulkinsert
+Content-Type: application/json
+
+[
+{
+  "enName": "Addis Ketema",
+  "amName": "አዲስ ከተማ"
+},
+{
+  "enName": "Akaky Kaliti",
+  "amName": "አቃቂ ቃሊቲ"
+},
+{
+  "enName": "Arada",
+  "amName": "አራዳ"
+},
+{
+  "enName": "Bole",
+  "amName": "ቦሌ"
+},
+{
+  "enName": "Gullele",
+  "amName": "ጉለሌ"
+},
+{
+  "enName": "Kirkos",
+  "amName": "ቂርቆስ"
+},
+{
+  "enName": "Kolfe Keranio",
+  "amName": "ኮልፌ ቀራንዮ"
+},
+{
+  "enName": "Lideta",
+  "amName": "ልደታ"
+},
+{
+  "enName": "Nifas Silk-Lafto",
+  "amName": "ንፋስ ስልክ ላፍቶ"
+},
+{
+  "enName": "Yeka",
+  "amName": "የካ"
+}
+]

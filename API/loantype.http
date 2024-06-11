@@ -1,0 +1,17 @@
+
+POST http://localhost:8000/loantype/loantypes/bulkinsert
+Content-Type: application/json
+
+[
+    {"enName" : "የመኪና ብድር(ለትራንስፖርት ስራ)", "amName" : "የመኪና ብድር(ለትራንስፖርት ስራ)"},
+    {"enName" : "የመኪና ብድር(ለግል)", "amName" : "የመኪና ብድር(ለግል)"},
+    {"enName" : "የቤት(የንግድ)", "amName" : "የቤት(የንግድ)" },
+    {"enName" : "የቤት(መኖርያ)" , "amName" : "የቤት(መኖርያ)"  },
+    {"enName" : "አነስተኛ ንግድ ጅማሪ", "amName" : "አነስተኛ ንግድ ጅማሪ" },
+    {"enName" : "ንግድ ማስፋፍያ", "amName" : "ንግድ ማስፋፍያ" },
+    {"enName" : "በመደበኛ(የራስ ብድር)", "amName" : "በመደበኛ(የራስ ብድር)"},
+    {"enName" : "የትምህርት", "amName" : "የትምህርት"},
+    {"enName" : "ድንገተኛ", "amName" : "ድንገተኛ"},
+    {"enName" : "ወደ ፊያብ የሚዘዋወር", "amName" : "ወደ ፊያብ የሚዘዋወር" },
+    {"enName" : "የግል ብድር", "amName" : "የግል ብድር" }
+]

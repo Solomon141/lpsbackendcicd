@@ -1,0 +1,61 @@
+
+POST http://localhost:8000/checklist_type/checklisttypes/bulkinsert
+Content-Type: application/json
+
+[{
+    "enName": "Delegation checklist",
+    "amName": "ውክልና ዝርዝር"
+},{
+    "enName": "Single Guarantee Person checklist",
+    "amName": "ያላገባ የዋስ ግለሰብ ዝርዝር"
+},{
+    "enName": "Married General loan document checklist",
+    "amName": "ያገባ አጠቃላይ የብድር ሰነድ ማረጋገጫ ዝርዝር"
+},{
+    "enName": "Single General loan document checklist",
+    "amName": "ነጠላ አጠቃላይ የብድር ሰነድ ማረጋገጫ ዝርዝር"
+},{
+    "enName": "Checklist of home loan documents",
+    "amName": "በቤት ዋስትና የሚሰጥ የብድር ሰነድ ማረጋገጫ ዝርዝር"
+},{
+    "enName": "Checklist of car loan documents",
+    "amName": "በመኪና ዋስትና የሚሰጥ የብድር ሰነድ ማረጋገጫ ዝርዝር"
+},{
+    "enName": "Checklist of loan documents guaranteed by salary",
+    "amName": "በደመወዝ ዋስትና የሚሰጥ የብድር ሰነድ ማረጋገጫ ዝርዝር"
+},{
+    "enName": "Checklist of loan documents guaranteed by the member",
+    "amName": "በአባል ዋስትና የሚሰጥ የብድር ሰነድ ማረጋገጫ ዝርዝር"
+},{
+    "enName": "Check list of loan documents guaranteed by stock certificates",
+    "amName": "በአክሲዮን ሰርተፍኬት ዋስትና የሚሰጥ የብድር ሰነድ ማረጋገጫ ዝርዝር"
+},{
+    "enName": "Married Guarantee Person Checklist",
+    "amName": "ያገባ የዋስ ግለሰብ ዝርዝር"
+},{
+    "enName": "Common",
+    "amName": "Common"
+},{
+    "enName": "Left",
+    "amName": "ቀሪ"
+},{
+    "enName": "Banks",
+    "amName": "ባንኮች"
+},{
+    "enName": "Manufactured Country",
+    "amName": "የተመረተበት አገር"
+},{
+    "enName": "Company Type",
+    "amName": "የድርጅት አይነት"
+}]
+
+# 1. ውክልና ዝርዝር
+# 2. ያላገባ የዋስ ግለሰብ ዝርዝር
+# 3. ያገባ አጠቃላይ የብድር ሰነድ ማረጋገጫ ዝርዝር
+# 4. ያላገባ አጠቃላይ የብድር ሰነድ ማረጋገጫ ዝርዝር
+# 5. በቤት ዋስትና የሚሰጥ የብድር ሰነድ ማረጋገጫ ዝርዝር
+# 6. በመኪና ዋስትና የሚሰጥ የብድር ሰነድ ማረጋገጫ ዝርዝር
+# 7. በደመወዝ ዋስትና የሚሰጥ የብድር ሰነድ ማረጋገጫ ዝርዝር
+# 8. በአባል ዋስትና የሚሰጥ የብድር ሰነድ ማረጋገጫ ዝርዝር
+# 9. በአክሲዮን ሰርተፍኬት ዋስትና የሚሰጥ የብድር ሰነድ ማረጋገጫ ዝርዝር
+# 10. ያገባ የዋስ ግለሰብ ዝርዝር

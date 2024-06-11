@@ -1,0 +1,9 @@
+
+
+POST http://localhost:8000/lpsauth/login
+Content-Type: application/json
+
+{
+    "username":"semhal",
+    "password":"P@55w0rd"
+}

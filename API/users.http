@@ -1,0 +1,86 @@
+
+# POST https://solomon41411.pythonanywhere.com/lpsauth/registerall
+POST http://localhost:8000/lpsauth/registerall
+Content-Type: application/json
+
+[
+    {
+        "username": "rediet",
+        "email": "rediet@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"ረደኤት",
+        "last_name":"አባት",
+        "groups":"ROLE_OFFICER"
+    },
+     {
+        "username": "officer2",
+        "email": "officer2@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"ኦፊሰር-2",
+        "last_name":"አባት",
+        "groups":"ROLE_OFFICER"
+    },
+     {
+        "username": "officer3",
+        "email": "officer3@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"ኦፊሰር-3",
+        "last_name":"አባት",
+        "groups":"ROLE_OFFICER"
+    },
+     {
+        "username": "officer4",
+        "email": "officer4@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"ኦፊሰር-4",
+        "last_name":"አባት",
+        "groups":"ROLE_OFFICER"
+    },
+     {
+        "username": "hagos",
+        "email": "hagos@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"hagos",
+        "last_name":"አባት",
+        "groups":"ROLE_TEAM_LEADER"
+    },
+    {
+        "username": "liwam",
+        "email": "liwam@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"ልዋም",
+        "last_name":"አባት",
+        "groups":"ROLE_AUDITOR"
+    },
+    {
+        "username": "adugna",
+        "email": "adugna@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"አዱኛ",
+        "last_name":"አባት",
+        "groups":"ROLE_PLANNER"
+    },
+     {
+        "username": "admin",
+        "email": "admin@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"አስተዳደር",
+        "last_name":"አባት",
+        "groups":"ROLE_ADMIN"
+    } 
+]
+
+
+##### 
+POST http://localhost:8000/lpsauth/registerall
+Content-Type: application/json
+[
+   {
+        "username": "semhal",
+        "email": "semhal@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"ሰምሀል",
+        "last_name":"አባት",
+        "groups":"ROLE_APPLICANT"
+    }
+]

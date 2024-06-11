@@ -1,0 +1,33 @@
+
+POST http://localhost:8000/car_manufacturer/manufacture/bulkinsert
+Content-Type: application/json
+
+[
+  { "yearRange": "lessthan 2000", "multiplierRatio": 0.5 }, 
+  { "yearRange": "2000 to 2002",  "multiplierRatio": 0.65 }, 
+  { "yearRange": "2003 to 2008",  "multiplierRatio": 0.8 }, 
+  { "yearRange": "2009 to 2012",  "multiplierRatio": 0.85 }, 
+  { "yearRange": "2013 to 2016",  "multiplierRatio": 0.9 }, 
+  { "yearRange": "2017 to 2019",  "multiplierRatio": 0.95 },
+  { "yearRange": "2020 to 2023",  "multiplierRatio": 1 }
+]
+
+###
+POST http://localhost:8000/car_model/model/bulkinsert
+Content-Type: application/json
+
+[
+    { "enName": "Suzuki" },
+    { "enName": "Hyundai" },
+    { "enName": "Peugeot/Cherolet" },
+    { "enName": "Toyota/Nissan-Automobile" },
+    { "enName": "Toyota/Nissan-Minibus" },
+    { "enName": "Toyota/Nissan-Havy Duty" },
+    { "enName": "Lifan" },
+    { "enName": "Isuzu/Sino" },
+    { "enName": "Atoz" },
+    { "enName": "Vitiz" },
+    { "enName": "Yaris" },
+    { "enName": "Every" },
+    { "enName": "Toyota Hilux Pick Up" }
+]

@@ -1,0 +1,57 @@
+
+name: Deploy Django to cPanel via FTP
+
+on:
+  push:
+    branches:
+      - main  # Change this to your deployment branch if different
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'  # or your preferred Python version
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: Prepare files for deployment
+        run: |
+          # Add commands to prepare your application for deployment, e.g. collectstatic
+          source venv/bin/activate
+          python manage.py collectstatic --noinput
+
+      - name: Deploy via FTP
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          # Install lftp
+          sudo apt-get install lftp
+
+          # Create a temporary directory to upload files
+          mkdir temp_deploy
+
+          # Copy necessary files to the temporary directory
+          cp -r * temp_deploy/
+
+          # Upload files via FTP
+          lftp -c "
+          open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST;
+          mirror --reverse --delete --verbose temp_deploy /path/to/your/cpanel/public_html;
+          bye;
+          "
+
+      - name: Clean up
+        run: rm -rf temp_deploy

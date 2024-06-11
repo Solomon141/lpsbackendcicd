@@ -1,0 +1,127 @@
+
+POST http://localhost:8000/holidays/holidays/bulkinsert
+Content-Type: application/json
+
+[
+  {
+    "holyDate": "2024-01-07",
+    "holidayName": "Genna (Ethiopian Christmas)",
+    "description": "Celebration of the birth of Jesus Christ according to the Ethiopian Orthodox Church."
+  },
+  {
+    "holyDate": "2024-01-19",
+    "holidayName": "Timkat (Epiphany)",
+    "description": "Commemoration of the baptism of Jesus Christ in the Jordan River."
+  },
+  {
+    "holyDate": "2024-03-02",
+    "holidayName": "Adwa Victory Day",
+    "description": "Celebration of the victory of Ethiopian forces over Italian invaders at the Battle of Adwa."
+  },
+  {
+    "holyDate": "2024-04-28",
+    "holidayName": "Fasika (Easter)",
+    "description": "Celebration of the resurrection of Jesus Christ."
+  },
+  {
+    "holyDate": "2024-05-01",
+    "holidayName": "International Workers' Day",
+    "description": "Global holiday celebrating the labor movement."
+  },
+  {
+    "holyDate": "2024-05-05",
+    "holidayName": "Patriots' Victory Day",
+    "description": "Commemoration of the Ethiopian resistance against Italian occupation."
+  },
+  {
+    "holyDate": "2024-05-28",
+    "holidayName": "Derg Downfall Day",
+    "description": "Celebration of the overthrow of the Derg regime in 1991."
+  },
+  {
+    "holyDate": "2024-07-23",
+    "holidayName": "Birthday of Emperor Haile Selassie",
+    "description": "Celebration of the birth of Emperor Haile Selassie."
+  },
+  {
+    "holyDate": "2024-09-11",
+    "holidayName": "Enkutatash (New Year)",
+    "description": "Ethiopian New Year celebration."
+  },
+  {
+    "holyDate": "2024-09-27",
+    "holidayName": "Meskel (Finding of the True Cross)",
+    "description": "Commemoration of the discovery of the True Cross by Queen Helena."
+  },
+  {
+    "holyDate": "2024-11-02",
+    "holidayName": "All Saints' Day",
+    "description": "Christian holiday celebrating all saints."
+  },
+  {
+    "holyDate": "2024-11-30",
+    "holidayName": "Mawlid al-Nabi",
+    "description": "Celebration of the birth of the Prophet Muhammad."
+  },
+  {
+    "holyDate": "2025-01-07",
+    "holidayName": "Genna (Ethiopian Christmas)",
+    "description": "Celebration of the birth of Jesus Christ according to the Ethiopian Orthodox Church."
+  },
+  {
+    "holyDate": "2025-01-19",
+    "holidayName": "Timkat (Epiphany)",
+    "description": "Commemoration of the baptism of Jesus Christ in the Jordan River."
+  },
+  {
+    "holyDate": "2025-03-02",
+    "holidayName": "Adwa Victory Day",
+    "description": "Celebration of the victory of Ethiopian forces over Italian invaders at the Battle of Adwa."
+  },
+  {
+    "holyDate": "2025-04-13",
+    "holidayName": "Fasika (Easter)",
+    "description": "Celebration of the resurrection of Jesus Christ."
+  },
+  {
+    "holyDate": "2025-05-01",
+    "holidayName": "International Workers' Day",
+    "description": "Global holiday celebrating the labor movement."
+  },
+  {
+    "holyDate": "2025-05-05",
+    "holidayName": "Patriots' Victory Day",
+    "description": "Commemoration of the Ethiopian resistance against Italian occupation."
+  },
+  {
+    "holyDate": "2025-05-28",
+    "holidayName": "Derg Downfall Day",
+    "description": "Celebration of the overthrow of the Derg regime in 1991."
+  },
+  {
+    "holyDate": "2025-07-23",
+    "holidayName": "Birthday of Emperor Haile Selassie",
+    "description": "Celebration of the birth of Emperor Haile Selassie."
+  },
+  {
+    "holyDate": "2025-09-11",
+    "holidayName": "Enkutatash (New Year)",
+    "description": "Ethiopian New Year celebration."
+  },
+  {
+    "holyDate": "2025-09-27",
+    "holidayName": "Meskel (Finding of the True Cross)",
+    "description": "Commemoration of the discovery of the True Cross by Queen Helena."
+  },
+  {
+    "holyDate": "2025-11-02",
+    "holidayName": "All Saints' Day",
+    "description": "Christian holiday celebrating all saints."
+  },
+  {
+    "holyDate": "2025-11-19",
+    "holidayName": "Mawlid al-Nabi",
+    "description": "Celebration of the birth of the Prophet Muhammad."
+  }
+]
+
