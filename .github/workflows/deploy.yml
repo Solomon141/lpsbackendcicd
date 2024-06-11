@@ -11,7 +11,7 @@ jobs:
       - name: Get latest code
         uses: actions/checkout@v4
       - name: Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.5
         with:
           server:  ftp.badregplc.com
           username: ${{ secrets.FTP_USERNAME }}
