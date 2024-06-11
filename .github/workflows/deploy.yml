@@ -16,4 +16,4 @@ jobs:
           server: ftp.example.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /home/badregplccom/badregplc.com/lps
+          server-dir: /home/badregplccom/badregplc.com/lps/
