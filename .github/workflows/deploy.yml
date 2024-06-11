@@ -48,7 +48,7 @@ jobs:
           # Upload files via FTP
           lftp -c "
           open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST;
-          mirror --reverse --delete --verbose temp_deploy /path/to/your/cpanel/public_html;
+          mirror --reverse --delete --verbose temp_deploy /badregplc.com/lps;
           bye;
           "
 
