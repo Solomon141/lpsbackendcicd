@@ -36,21 +36,15 @@ jobs:
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
-          # Install lftp
-          sudo apt-get install lftp
-
-          # Create a temporary directory to upload files
-          mkdir temp_deploy
-
-          # Copy necessary files to the temporary directory
-          cp -r * temp_deploy/
-
-          # Upload files via FTP
-          lftp -c "
-          open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST;
-          mirror --reverse --delete --verbose temp_deploy /badregplc.com/lps;
-          bye;
-          "
+            sudo apt-get install lftp
+            mkdir temp_deploy
+            # Exclude temp_deploy directory from copy operation
+            rsync -av --exclude=temp_deploy/ * temp_deploy/
+            lftp -c "
+            open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST;
+            mirror --reverse --delete --verbose temp_deploy /public_html/your_subdirectory;
+            bye;
+            "
 
       - name: Clean up
         run: rm -rf temp_deploy
