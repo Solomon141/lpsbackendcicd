@@ -41,7 +41,7 @@ class Loan(models.Model):
     numberOfRepayments = models.IntegerField(default=0, null=True, blank=True) # ብድሩ የሚመለስበት አመት The year in which the loan will be repaid amisisLoans.numberOfRepayments = months
     totalDueForPeriod = models.FloatField(default=0, null=True, blank=True) # ወርሃዊ ክፍያ Monthly Payment
     totalInterestPayment = models.FloatField(default=0, null=True, blank=True) # ጠቅላላ የወለድ ክፍያ Total interest payment
-    queueTime = models.IntegerField(default=0, null=True, blank=True) # የወረፋ ጊዜ
+    queueTime = models.IntegerField(default=5, null=True, blank=True) # የወረፋ ጊዜ
     queueDate = models.DateField(default=date.today, null=True, blank=True) # የወረፋ ቀን 
     
 

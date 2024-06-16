@@ -15,16 +15,13 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-+xw=-!2jggcr2%bxctm^e@81c7)!u-7&*-iqssxx5#kv4i!rv0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -78,18 +75,10 @@ INSTALLED_APPS = [
     'holidays',
 ]
 
-ALLOWED_HOSTS = [
-    "http://www.llps.badregplc.com/", 
-    "https://www.llps.badregplc.com/", 
-    "http://localhost:3000/", 
-    "localhost",
-    "127.0.0.1",
-    "localhost:8000",
-    "localhost:8080",
-    "192.168.1.41:8080",
-    ]
+ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOW_ALL_ORIGINS = True
+
 CORS_ALLOW_CREDENTIALS = True
 
 # CORS_ALLOWED_ORIGINS = [
@@ -99,16 +88,16 @@ CORS_ALLOW_CREDENTIALS = True
 #     'exp://192.168.32.66:8081',
 # ]
 
-# CORS_ALLOWED_ORIGINS = ["*"]
+# CORS_ALLOWED_ORIGINS = ['*']
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://localhost:8081",
-    "exp://localhost:8081",
-    "http://192.168.0.7:19006",
-    'http://localhost:19006',
-    'exp://192.168.32.66:8081',
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "http://localhost:8081",
+#     "exp://localhost:8081",
+#     "http://192.168.0.7:19006",
+#     'http://localhost:19006',
+#     'exp://192.168.32.66:8081',
+# ]
 
 INTERNAL_IPS = [
     '127.0.0.1'
@@ -127,7 +116,6 @@ CORS_ALLOW_HEADERS = [
     'Custom-Header',
 ]
 
-
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
 }
@@ -143,7 +131,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
-
 
 ROOT_URLCONF = 'lps_django_2024.urls'
 
@@ -165,7 +152,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'lps_django_2024.wsgi.application'
 
-
 # Database = # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 DATABASES = {
     'default': {
@@ -173,8 +159,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -204,7 +188,6 @@ USE_TZ = True
 # STATIC_URL = 'static/'
 # STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
-
 
 # Default primary key field type # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

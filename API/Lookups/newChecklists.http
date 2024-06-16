@@ -1,0 +1,394 @@
+
+POST http://localhost:8000/checklist/checklists/bulkinsert
+Content-Type: application/json
+
+[{
+  "enName": "ውክልና (ካለ) እና የውክልና ማጣርያ",
+  "amName": "ውክልና (ካለ) እና የውክልና ማጣርያ",
+  "parent": 1,
+  "markValue": 5
+},{
+  "enName": "የተወካይ መታወቅያ እና መታወቅያ ማጣርያ",
+  "amName": "የተወካይ መታወቅያ እና መታወቅያ ማጣርያ",
+  "parent": 1,
+  "markValue": 5
+
+},{
+  "enName": "የዋስ መታወቅያ",
+  "amName": "የዋስ መታወቅያ",
+  "parent": 2,
+  "markValue": 5
+
+},{
+  "enName": "የዋስ መታወቅያ ማጣርያ",
+  "amName": "የዋስ መታወቅያ ማጣርያ",
+  "parent": 2,
+   "markValue": 5
+
+},{
+  "enName": "የዋስ ያላገባ እና ያላገባ ማጣርያ",
+  "amName": "የዋስ ያላገባ እና ያላገባ ማጣርያ",
+  "parent": 2,
+   "markValue": 5
+
+},{
+  "enName": "ባንክ ስቴትመንት",
+  "amName": "ባንክ ስቴትመንት",
+  "parent": 3,
+   "markValue": 5
+
+},{
+  "enName": "የተበዳሪ መታወቅያ እና መታወቅያ ማጣርያ",
+  "amName": "የተበዳሪ መታወቅያ እና መታወቅያ ማጣርያ",
+  "parent": 11,
+   "markValue": 5
+
+},{
+  "enName": "የተበዳሪ ያገባ",
+  "amName": "የተበዳሪ ያገባ",
+  "parent": 3,
+   "markValue": 5
+
+},{
+  "enName": "የተበዳሪ ባለቤት መታወቅያ እና መታወቅያ ማጣርያ",
+  "amName": "የተበዳሪ ባለቤት መታወቅያ እና መታወቅያ ማጣርያ",
+  "parent": 3,
+   "markValue": 5
+
+},{
+  "enName": "ባንክ ስቴትመንት",
+  "amName": "ባንክ ስቴትመንት",
+  "parent": 4,
+   "markValue": 5
+
+},{
+  "enName": "የተበዳሪ መታወቅያ እና መታወቅያ ማጣርያ",
+  "amName": "የተበዳሪ መታወቅያ እና መታወቅያ ማጣርያ",
+  "parent": 4,
+   "markValue": 5
+
+},{
+  "enName": "የተበዳሪ ያላገባ እና ያላገባ ማጣርያ",
+  "amName": "የተበዳሪ ያላገባ እና ያላገባ ማጣርያ",
+  "parent": 4,
+   "markValue": 5
+
+},{
+  "enName": "የዋስ መታወቅያ እና መታወቅያ ማጣርያ",
+  "amName": "የዋስ መታወቅያ እና መታወቅያ ማጣርያ",
+  "parent": 10,
+   "markValue": 5
+
+},{
+  "enName": "የዋስ ያገባ",
+  "amName": "የዋስ ያገባ",
+  "parent": 10,
+    "markValue": 5
+
+},{
+  "enName": "የዋስ ባለቤት መታወቅያ እና መታወቅያ ማጣርያ",
+  "amName": "የዋስ ባለቤት መታወቅያ እና መታወቅያ ማጣርያ",
+  "parent": 10,
+   "markValue": 5
+
+},{
+  "enName": "ማመልከቻ",
+  "amName": "ማመልከቻ",
+  "parent": 5,
+   "markValue": 5
+
+},{
+  "enName": "የመተማመኛ ደብዳቤ",
+  "amName": "የመተማመኛ ደብዳቤ",
+  "parent": 5,
+   "markValue": 5
+
+},{
+  "enName": "የደሞዝ ዋስትና ደብዳቤ እና ደብዳቤ ማጣርያ",
+  "amName": "የደሞዝ ዋስትና ደብዳቤ እና ደብዳቤ ማጣርያ",
+  "parent": 5,
+   "markValue": 5
+
+},{
+  "enName": "የይዞታ ማረጋገጫ (ከደረሰኝ ጋር)",
+  "amName": "የይዞታ ማረጋገጫ (ከደረሰኝ ጋር)",
+  "parent": 5,
+   "markValue": 5
+
+},{
+  "enName": "ኢንሹራንስ",
+  "amName": "ኢንሹራንስ",
+  "parent": 5,
+   "markValue": 5
+
+},{
+  "enName": "የመንደር ውል",
+  "amName": "የመንደር ውል",
+  "parent": 5,
+   "markValue": 5
+
+},{
+  "enName": "የቤት ፎቶ",
+  "amName": "የቤት ፎቶ",
+  "parent": 5,
+   "markValue": 5
+
+},{
+  "enName": "የቤት የእግድ ደብዳቤ",
+  "amName": "የተሰጠበት ቀን: ----",
+  "parent": 5,
+   "markValue": 5
+
+},{
+  "enName": "እግድ (ካርታ ኮፒ ከተረጋገጠ የብድር ውል ስምምነት ጋር)",
+  "amName": "እግድ (ካርታ ኮፒ ከተረጋገጠ የብድር ውል ስምምነት ጋር)",
+  "parent": 5,
+   "markValue": 5
+
+},{
+  "enName": "የመያዣ ውል ስምምነት",
+  "amName": "የመያዣ ውል ስምምነት",
+  "parent": 5,
+   "markValue": 5
+
+},{
+  "enName": "ማመልከቻ",
+  "amName": "ማመልከቻ",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "የመተማመኛ ደብዳቤ",
+  "amName": "የመተማመኛ ደብዳቤ",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "የደሞዝ ዋስትና ደብዳቤ እና ደብዳቤ ማጣርያ",
+  "amName": "የደሞዝ ዋስትና ደብዳቤ እና ደብዳቤ ማጣርያ",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "ኢንሹራንስ",
+  "amName": "ኢንሹራንስ",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "የመንደር ውል/Proforma",
+  "amName": "የመንደር ውል/Proforma",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "የጋራጅ ሪፖርት",
+  "amName": "የጋራጅ ሪፖርት",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "የመኪና ፎቶ",
+  "amName": "የመኪና ፎቶ",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "ንግድ ፍቃድ (ኮድ 3)",
+  "amName": "ንግድ ፍቃድ (ኮድ 3)",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "የመኪና የእግድ ደብዳቤ",
+  "amName": "የተሰጠበት ቀን፡_______",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "እግድ (ሊብሬ ኮፒ ከተረጋገጠ የብድር ውል ስምምነት ጋር)",
+  "amName": "እግድ (ሊብሬ ኮፒ ከተረጋገጠ የብድር ውል ስምምነት ጋር)",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "የመያዣ ውል ስምምነት",
+  "amName": "የመያዣ ውል ስምምነት",
+  "parent": 6,
+   "markValue": 5
+
+},{
+  "enName": "የደሞዝ ዋስትና ደብዳቤ እና ደብዳቤ ማጣሪያ",
+  "amName": "የደሞዝ ዋስትና ደብዳቤ እና ደብዳቤ ማጣሪያ",
+  "parent": 7,
+   "markValue": 5
+
+},{
+  "enName": "የአባል ዋስትና ደብዳቤ",
+  "amName": "የአባል ዋስትና ደብዳቤ",
+  "parent": 8,
+   "markValue": 5
+
+},{
+  "enName": "የአባል ዋስትና ደብዳቤ እግድ",
+  "amName": "የአባል ዋስትና ደብዳቤ እግድ",
+  "parent": 8,
+   "markValue": 5
+
+},{
+  "enName": "ማመልከቻ",
+  "amName": "ማመልከቻ",
+  "parent": 9,
+   "markValue": 5
+
+},{
+  "enName": "የመተማመኛ ደብዳቤ",
+  "amName": "የመተማመኛ ደብዳቤ",
+  "parent": 9,
+   "markValue": 5
+
+},{
+  "enName": "የደሞዝ ዋስትና ደብዳቤ እና ደብዳቤ ማጣርያ",
+  "amName": "የደሞዝ ዋስትና ደብዳቤ እና ደብዳቤ ማጣርያ",
+  "parent": 9,
+   "markValue": 5
+
+},{
+  "enName": "የይዞታ ማረጋገጫ (ከደረሰኝ ጋር)",
+  "amName": "የይዞታ ማረጋገጫ (ከደረሰኝ ጋር)",
+  "parent": 9,
+   "markValue": 5
+
+},{
+  "enName": "ኢንሹራንስ",
+  "amName": "ኢንሹራንስ",
+  "parent": 9,
+   "markValue": 5
+
+},{
+  "enName": "የመንደር ውል",
+  "amName": "የመንደር ውል",
+  "parent": 9,
+   "markValue": 5
+
+},{
+  "enName": "የቤት ፎቶ",
+  "amName": "የቤት ፎቶ",
+  "parent": 9,
+   "markValue": 5
+
+},{
+  "enName": "የአክሲዮን የእግድ ደብዳቤ",
+  "amName": "የተሰጠበት ቀን፡______",
+  "parent": 9,
+   "markValue": 5
+
+},{
+  "enName": "እግድ (የአክሲዮን ሰርተፍኬት ኮፒ ከተረጋገጠ የብድር ውል ስምምነት ጋር)",
+  "amName": "እግድ (የአክሲዮን ሰርተፍኬት ኮፒ ከተረጋገጠ የብድር ውል ስምምነት ጋር)",
+  "parent": 9,
+   "markValue": 5
+
+},{
+  "enName": "የመያዣ ውል ስምምነት",
+  "amName": "የመያዣ ውል ስምምነት",
+  "parent": 9,
+   "markValue": 5
+
+},{
+  "enName": "የዋስትና ውል ስምምነት (3 ኮፒ)",
+  "amName": "የዋስትና ውል ስምምነት (3 ኮፒ)",
+  "parent": 12,
+   "markValue": 5
+
+},{
+  "enName": "የአባል የብድር ውል ስምምነት (3 ኮፒ)",
+  "amName": "የአባል የብድር ውል ስምምነት (3 ኮፒ)",
+  "parent": 12,
+   "markValue": 5
+
+},{
+  "enName": "በተወሰነ ጊዜ የሚከፈል የአባል የብድር ውል ስምምነት (3ኮፒ)",
+  "amName": "በተወሰነ ጊዜ የሚከፈል የአባል የብድር ውል ስምምነት (3ኮፒ)",
+  "parent": 12,
+   "markValue": 5
+
+},{ 
+  "enName": "Nib International Bank",
+  "amName": "ንብ ኢንተርናሽናል ባንክ",
+  "parent": 13,
+   "markValue": 5
+
+},{ 
+  "enName": "Abay Bank",
+  "amName": "ንብ ባንክ",
+  "parent": 13,
+   "markValue": 5
+
+},{
+  "enName": "Addis International Bank",
+  "amName": "አዲስ ኢንተርናሽናል ባንክ",
+  "parent": 13,
+   "markValue": 5
+
+},{
+  "enName": "Commercial Bank of Ethiopia",
+  "amName": "የኢትዮጵያ ንግድ ባንክ",
+  "parent": 13,
+   "markValue": 5
+
+},{
+  "enName": "Commercial Bank of Ethiopia",
+  "amName": "የኢትዮጵያ ንግድ ባንክ",
+  "parent": 14,
+   "markValue": 5
+
+},{ 
+  "enName": "Government-Owned Company (GovCo)",
+  "amName": "Government-Owned Company (GovCo)",
+  "parent": 15,
+   "markValue": 5
+
+},{ 
+  "enName": "Non-Governmental Organization (NGO)",
+  "amName": "Non-Governmental Organization (NGO)",
+  "parent": 15,
+   "markValue": 5
+
+},{ 
+  "enName": "Public Limited Company (PLC)",
+  "amName": "Public Limited Company (PLC)",
+  "parent": 15,
+   "markValue": 5
+
+},{ 
+  "enName": "Private Limited Company (Ltd)",
+  "amName": "Private Limited Company (Ltd)",
+  "parent": 15,
+   "markValue": 5
+
+},{ 
+  "enName": "Partnership",
+  "amName": "Partnership",
+  "parent": 15,
+   "markValue": 5
+
+},{ 
+  "enName": "Sole Proprietorship",
+  "amName": "Sole Proprietorship",
+  "parent": 15,
+   "markValue": 5
+
+},{ 
+  "enName": "Cooperative",
+  "amName": "Cooperative",
+  "parent": 15,
+   "markValue": 5
+
+},{ 
+  "enName": "Social Enterprise",
+  "amName": "Social Enterprise",
+  "parent": 15,
+  "markValue": 5
+}
+]
