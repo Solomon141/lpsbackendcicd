@@ -102,6 +102,11 @@ urlpatterns = [
     path('jobposition/', include('jobposition.api.urls')),
     path('customercommonfiles/', include('customercommonfiles.api.urls')),
     
+    # disbursements
+    path('disbursements/', include('disbursement.api.urls')),
+    
+    
+    
 
     path('newlps/', schema_view.with_ui('swagger',
                                  cache_timeout=0), name='schema-swagger-ui'),

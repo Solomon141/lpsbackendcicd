@@ -15,6 +15,8 @@ from collateralhome.api.serializers import CollateralHomeSerializer
 from collateralstock.api.serializers import CollateralStockSerializer
 from loanadditionaldocs.api.serializers import LoanAdditionalFilesSerializer
 
+from disbursement.api.serializers import DisbursementSerializer
+
 class RoundedField(serializers.Field):
     def to_representation(self, value):
         return round(value, 2)
@@ -32,6 +34,7 @@ class CommaSeparatedNumberField(serializers.Field):
         return int(data.replace(',', ''))  # Remove commas for internal value representation
 
 class LoanSerializer(serializers.ModelSerializer):
+    disbursement_detail = DisbursementSerializer(many=True, read_only=True, required=False)
     loancomment = LoanCommentSerializer(many=True, read_only=True, required=False)
     collateralcar = CollateralCarSerializer(many=True, read_only=True, required=False)
     collateralhome = CollateralHomeSerializer(many=True, read_only=True, required=False)

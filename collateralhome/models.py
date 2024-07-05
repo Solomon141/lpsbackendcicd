@@ -25,6 +25,9 @@ class CollateralHome(models.Model):
     
     createdBy = models.ForeignKey(User, related_name="collateralhomeinsertedby", on_delete=models.CASCADE, null=True, blank=True)
     createdAt = models.DateField(auto_now_add=False, null=True, blank=True)
+    
+    # sunctionNumber = models.IntegerField(null=True, blank=True)
+    # sunctionRecordedBy = models.ForeignKey(User, related_name="carSunctionRecordedBy", on_delete=models.CASCADE, null=True, blank=True)
 
     def __str__(self):
         return self.uniquenum 

@@ -29,6 +29,9 @@ class Collateral_Car(models.Model):
     isApproved = models.BooleanField(default=False)
     approvedBy = models.ForeignKey(User, related_name="approvedCar", on_delete=models.CASCADE, null=True, blank=True)
     approvedAt = models.DateField(auto_now_add=False, null=True, blank=True)
+    
+    # sunctionNumber = models.IntegerField(null=True, blank=True)
+    # sunctionRecordedBy = models.ForeignKey(User, related_name="carSunctionRecordedBy", on_delete=models.CASCADE, null=True, blank=True)
 
     def __str__(self):
         return self.manufacturedYear 

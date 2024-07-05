@@ -84,3 +84,35 @@ Content-Type: application/json
         "groups":"ROLE_APPLICANT"
     }
 ]
+
+##### disbursement
+
+POST http://localhost:8000/lpsauth/registerall
+Content-Type: application/json
+
+[
+    {
+        "username": "clerk",
+        "email": "clerk@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"clerk",
+        "last_name":"አባት",
+        "groups":"ROLE_CLERK"
+    },
+     {
+        "username": "authenticator",
+        "email": "authenticator@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"authenticator",
+        "last_name":"አባት",
+        "groups":"ROLE_AUTHENTICATOR"
+    },
+     {
+        "username": "finance",
+        "email": "finance@gmail.com",
+        "password": "P@55w0rd",
+        "first_name":"finance",
+        "last_name":"አባት",
+        "groups":"ROLE_FINANCE"
+    }
+]

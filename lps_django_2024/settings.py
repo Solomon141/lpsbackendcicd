@@ -73,6 +73,8 @@ INSTALLED_APPS = [
     'subcity',
     'woreda',
     'holidays',
+    'disbursement',
+    'withdrawal',
 ]
 
 ALLOWED_HOSTS = ["*"]
