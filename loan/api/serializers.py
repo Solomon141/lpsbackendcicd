@@ -46,6 +46,8 @@ class LoanSerializer(serializers.ModelSerializer):
     collateralstock = CollateralStockSerializer(many=True, read_only=True, required=False)
     loanadditionalfiles = LoanAdditionalFilesSerializer(many=True, read_only=True, required=False)
     
+    
+    
     r_approvedPrincipal = RoundedField(source='approvedPrincipal')
     r_totalSaving = RoundedField(source='totalSaving')
     r_totalShares = RoundedField(source='totalShares')

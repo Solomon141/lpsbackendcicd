@@ -4,6 +4,7 @@ from customer.models import Customer
 from datetime import date
 from employeedetail.models import EmployeeDetail
 
+
 # Create your models here.
 class Loan(models.Model):
     # account Details
