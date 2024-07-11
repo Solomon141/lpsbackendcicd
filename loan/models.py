@@ -2,8 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 from customer.models import Customer
 from datetime import date
-from employeedetail.models import EmployeeDetail
-
 
 # Create your models here.
 class Loan(models.Model):
@@ -77,7 +75,7 @@ class Loan(models.Model):
 
     # Dibursement Information
     isDisbursed = models.BooleanField(default=False)
-
+    
     class Meta:
         unique_together = ("loanId", "customer", "submittedOnDate" )
 

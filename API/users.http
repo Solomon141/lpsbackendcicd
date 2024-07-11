@@ -29,12 +29,12 @@ Content-Type: application/json
         "groups":"ROLE_OFFICER"
     },
      {
-        "username": "officer4",
-        "email": "officer4@gmail.com",
+        "username": "finance",
+        "email": "finance@gmail.com",
         "password": "P@55w0rd",
-        "first_name":"ኦፊሰር-4",
+        "first_name":"finance",
         "last_name":"አባት",
-        "groups":"ROLE_OFFICER"
+        "groups":"ROLE_FINANCE"
     },
      {
         "username": "hagos",
@@ -82,37 +82,5 @@ Content-Type: application/json
         "first_name":"ሰምሀል",
         "last_name":"አባት",
         "groups":"ROLE_APPLICANT"
-    }
-]
-
-##### disbursement
-
-POST http://localhost:8000/lpsauth/registerall
-Content-Type: application/json
-
-[
-    {
-        "username": "clerk",
-        "email": "clerk@gmail.com",
-        "password": "P@55w0rd",
-        "first_name":"clerk",
-        "last_name":"አባት",
-        "groups":"ROLE_CLERK"
-    },
-     {
-        "username": "authenticator",
-        "email": "authenticator@gmail.com",
-        "password": "P@55w0rd",
-        "first_name":"authenticator",
-        "last_name":"አባት",
-        "groups":"ROLE_AUTHENTICATOR"
-    },
-     {
-        "username": "finance",
-        "email": "finance@gmail.com",
-        "password": "P@55w0rd",
-        "first_name":"finance",
-        "last_name":"አባት",
-        "groups":"ROLE_FINANCE"
     }
 ]

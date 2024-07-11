@@ -58,6 +58,27 @@ class LoanDetail(APIView):
         loan.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
+class loanByOfficerID(generics.ListCreateAPIView):
+    serializer_class = LoanSerializer
+
+    def get_queryset(self):
+        officerid = self.kwargs['officerid']
+        print("officerid")
+        print(officerid)
+
+        return Loan.objects.filter(submittedBy = officerid)
+    
+    
+# class GetCheckListByParentID(generics.ListCreateAPIView):
+#     serializer_class = CheckListSerializer
+
+#     def get_queryset(self):
+#         parent = self.kwargs['parent']
+#         print("parent")
+#         print(parent)
+
+#         return CheckList.objects.filter(parent = parent)
+    
 
 class AssignedToIfNotNull():
     pass

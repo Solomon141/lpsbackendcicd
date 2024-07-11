@@ -67,3 +67,30 @@ class LoanSerializerInsert(serializers.ModelSerializer):
         fields = '__all__'
 
 
+class LoanSerializerByOfficer(serializers.ModelSerializer):
+    disbursement_detail = DisbursementSerializer(many=True, read_only=True, required=False)
+    loancomment = LoanCommentSerializer(many=True, read_only=True, required=False)
+    collateralcar = CollateralCarSerializer(many=True, read_only=True, required=False)
+    collateralhome = CollateralHomeSerializer(many=True, read_only=True, required=False)
+    collateralemployee = CollateralEmployeeSerializer(many=True, read_only=True, required=False)
+    gp = LoanGuaranteePersonSerializer(many=True, read_only=True, required=False)
+    loansurety = SuretySerializer(many=True, read_only=True, required=False)
+    loanwitness = LoanWitnessSerializer(many=True, read_only=True, required=False)
+    delegatedperson = DelegationSerializer(many=True, read_only=True, required=False)
+    collateralstock = CollateralStockSerializer(many=True, read_only=True, required=False)
+    loanadditionalfiles = LoanAdditionalFilesSerializer(many=True, read_only=True, required=False)
+    
+    
+    
+    r_approvedPrincipal = RoundedField(source='approvedPrincipal')
+    r_totalSaving = RoundedField(source='totalSaving')
+    r_totalShares = RoundedField(source='totalShares')
+    r_totalDueForPeriod = RoundedField(source='totalDueForPeriod')
+    
+    # comma separated and rounded number value 
+    rcs_totalDueForPeriod = CommaSeparatedNumberField(source='approvedPrincipal')
+
+    class Meta:
+        model = Loan
+        fields = '__all__'
+        depth = 2

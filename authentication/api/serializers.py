@@ -8,8 +8,7 @@ class UserInGivenGroupSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ['id', 'username', 'first_name', 'last_name', 'email']
-        depth = 2
-
+        depth = 1
 
 
 class UserSerializer(serializers.ModelSerializer):
