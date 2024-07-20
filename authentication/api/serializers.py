@@ -16,7 +16,7 @@ class UserSerializer(serializers.ModelSerializer):
    
     class Meta:
         model = User
-        fields = ['id', 'username', 'first_name', 'last_name', 'email', 'password', 'groups', 'is_staff'
+        fields = ['id', 'username', 'first_name', 'last_name', 'email', 'password', 'groups', 'is_staff', 'is_active'
                   ]
         extra_kwargs = {'password': {'write_only': True}}
 
@@ -28,6 +28,7 @@ class UserSerializer(serializers.ModelSerializer):
             first_name=validated_data['first_name'],
             last_name=validated_data['last_name'],
             password=validated_data['password'],
+            is_active=validated_data['is_active'],
             is_staff=True)
         
         # Assign group
@@ -43,7 +44,7 @@ class UserSerializerLogin(serializers.ModelSerializer):
    
     class Meta:
         model = User
-        fields = ['id', 'username', 'first_name', 'last_name', 'email', 'password', 'groups', 'is_staff'
+        fields = ['id', 'username', 'first_name', 'last_name', 'email', 'password', 'groups', 'is_staff', 'is_active'
                   ]
         extra_kwargs = {'password': {'write_only': True}}
 
@@ -55,6 +56,7 @@ class UserSerializerLogin(serializers.ModelSerializer):
             first_name=validated_data['first_name'],
             last_name=validated_data['last_name'],
             password=validated_data['password'],
+            is_active=validated_data['is_active'],
             is_staff=True)
         
         # Assign group

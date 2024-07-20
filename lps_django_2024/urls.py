@@ -104,6 +104,9 @@ urlpatterns = [
     
     # disbursements
     path('disbursements/', include('disbursement.api.urls')),
+    path('withdrawals/', include('withdrawal.api.urls')),
+    path('withdrawaldetails/', include('withdrawaldetail.api.urls')),
+    
     
 
     path('newlps/', schema_view.with_ui('swagger',

@@ -60,7 +60,7 @@ class Loan(models.Model):
     officerid = models.ForeignKey(User, related_name="Officer", on_delete=models.SET_NULL, blank=True, null=True)
     officerapproved = models.BooleanField(default=False)
     officerat = models.DateField(auto_now=True)
-
+    
     # Team Leader
     teamleaderchecking = models.BooleanField(default=False)
     teamleaderid = models.ForeignKey(User, related_name="teamleader", on_delete=models.SET_NULL, blank=True, null=True) 
@@ -75,6 +75,12 @@ class Loan(models.Model):
 
     # Dibursement Information
     isDisbursed = models.BooleanField(default=False)
+    
+    # finances
+    financeCheking = models.BooleanField(default=False)
+    financeid = models.ForeignKey(User, related_name="disbursefinance", on_delete=models.SET_NULL, blank=True, null=True)
+    financeapproved = models.BooleanField(default=False)
+    financeat = models.DateField(default=date.today, null=True, blank=True)
     
     class Meta:
         unique_together = ("loanId", "customer", "submittedOnDate" )

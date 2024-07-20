@@ -68,29 +68,5 @@ class loanByOfficerID(generics.ListCreateAPIView):
 
         return Loan.objects.filter(submittedBy = officerid)
     
-    
-# class GetCheckListByParentID(generics.ListCreateAPIView):
-#     serializer_class = CheckListSerializer
-
-#     def get_queryset(self):
-#         parent = self.kwargs['parent']
-#         print("parent")
-#         print(parent)
-
-#         return CheckList.objects.filter(parent = parent)
-    
-
 class AssignedToIfNotNull():
     pass
-
-# class LoanPatchAPIView(generics.UpdateAPIView):
-#     queryset = Loan.objects.all()
-#     serializer_class = LoanSerializerInsert
-
-#     def patch(self, request, *args, **kwargs):
-#         partial = kwargs.pop('partial', True)
-#         instance = self.get_object()
-#         serializer = self.get_serializer(instance, data=request.data, partial=partial)
-#         serializer.is_valid(raise_exception=True)
-#         self.perform_update(serializer)
-#         return Response(serializer.data)

@@ -10,7 +10,8 @@ Content-Type: application/json
         "password": "P@55w0rd",
         "first_name":"ረደኤት",
         "last_name":"አባት",
-        "groups":"ROLE_OFFICER"
+        "groups":"ROLE_OFFICER",
+        "is_active": "true"
     },
      {
         "username": "officer2",
@@ -18,7 +19,8 @@ Content-Type: application/json
         "password": "P@55w0rd",
         "first_name":"ኦፊሰር-2",
         "last_name":"አባት",
-        "groups":"ROLE_OFFICER"
+        "groups":"ROLE_OFFICER",
+        "is_active": "true"
     },
      {
         "username": "officer3",
@@ -26,7 +28,8 @@ Content-Type: application/json
         "password": "P@55w0rd",
         "first_name":"ኦፊሰር-3",
         "last_name":"አባት",
-        "groups":"ROLE_OFFICER"
+        "groups":"ROLE_OFFICER",
+        "is_active": "true"
     },
      {
         "username": "finance",
@@ -34,7 +37,8 @@ Content-Type: application/json
         "password": "P@55w0rd",
         "first_name":"finance",
         "last_name":"አባት",
-        "groups":"ROLE_FINANCE"
+        "groups":"ROLE_FINANCE",
+        "is_active": "true"
     },
      {
         "username": "hagos",
@@ -42,7 +46,8 @@ Content-Type: application/json
         "password": "P@55w0rd",
         "first_name":"hagos",
         "last_name":"አባት",
-        "groups":"ROLE_TEAM_LEADER"
+        "groups":"ROLE_TEAM_LEADER",
+        "is_active": "true"
     },
     {
         "username": "liwam",
@@ -50,7 +55,8 @@ Content-Type: application/json
         "password": "P@55w0rd",
         "first_name":"ልዋም",
         "last_name":"አባት",
-        "groups":"ROLE_AUDITOR"
+        "groups":"ROLE_AUDITOR",
+        "is_active": "true"
     },
     {
         "username": "adugna",
@@ -58,7 +64,8 @@ Content-Type: application/json
         "password": "P@55w0rd",
         "first_name":"አዱኛ",
         "last_name":"አባት",
-        "groups":"ROLE_PLANNER"
+        "groups":"ROLE_PLANNER",
+        "is_active": "true"
     },
      {
         "username": "admin",
@@ -66,21 +73,23 @@ Content-Type: application/json
         "password": "P@55w0rd",
         "first_name":"አስተዳደር",
         "last_name":"አባት",
-        "groups":"ROLE_ADMIN"
+        "groups":"ROLE_ADMIN",
+        "is_active": "true"
     } 
 ]
 
 
 ##### 
-POST http://localhost:8000/lpsauth/registerall
+POST http://localhost:8000/lpsauth/register
 Content-Type: application/json
-[
+
    {
-        "username": "semhal",
-        "email": "semhal@gmail.com",
+        "username": "alem",
+        "email": "alem@gmail.com",
         "password": "P@55w0rd",
-        "first_name":"ሰምሀል",
-        "last_name":"አባት",
-        "groups":"ROLE_APPLICANT"
+        "first_name":"alem",
+        "last_name":"alem",
+        "groups":"ROLE_APPLICANT",
+        "is_active": "false"
     }
-]
+

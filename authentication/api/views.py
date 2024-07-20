@@ -69,3 +69,34 @@ class LoginView(GenericAPIView):
             return Response(data, status=status.HTTP_200_OK)
             # SEND RES
         return Response({'detail': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
+    
+    
+    
+
+class UserDetail(APIView):
+    def get_object(self, pk):
+        try:
+            return User.objects.get(pk=pk)
+        except User.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+
+    def get(self, request, pk, format=None):
+        car = self.get_object(pk)
+        serializer = LoginSerializer(car)
+        return Response(serializer.data)
+
+    def put(self, request, pk, format=None):
+        car = self.get_object(pk)
+        serializer = LoginSerializer(car, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+    def patch(self, request, pk):
+        loan = self.get_object(pk)
+        serializer = LoginSerializer(loan, data=request.data, partial=True)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

@@ -16,4 +16,4 @@ class LoanAdditionalFiles(models.Model):
     approvedAt = models.DateField(auto_now_add=False, null=True, blank=True)
    
     def __str__(self):
-        return self.amDesc
+        return self.descript

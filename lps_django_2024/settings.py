@@ -21,6 +21,8 @@ SECRET_KEY = 'django-insecure-+xw=-!2jggcr2%bxctm^e@81c7)!u-7&*-iqssxx5#kv4i!rv0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+X_FRAME_OPTIONS = 'ALLOW-FROM http://localhost:3000'
+
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -75,6 +77,7 @@ INSTALLED_APPS = [
     'holidays',
     'disbursement',
     'withdrawal',
+    'withdrawaldetail',
 ]
 
 ALLOWED_HOSTS = ["*"]

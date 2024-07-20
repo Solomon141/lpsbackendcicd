@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status, generics
 from loancommittee.models import LoanCommittee
-from .serializers import LoanCommitteeSerializer
+from .serializers import LoanCommitteeSerializer, LoanCommitteeSerializerInsert
 
 class LoanCommitteeList(APIView):
     def get(self, request, format=None):
@@ -12,7 +12,7 @@ class LoanCommitteeList(APIView):
         return Response(serializer.data)
 
     def post(self, request, format=None):
-        serializer = LoanCommitteeSerializer(data=request.data)
+        serializer = LoanCommitteeSerializerInsert(data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -32,7 +32,7 @@ class LoanCommitteeDetail(APIView):
 
     def put(self, request, pk, format=None):
         home_type = self.get_object(pk)
-        serializer = LoanCommitteeSerializer(home_type, data=request.data)
+        serializer = LoanCommitteeSerializerInsert(home_type, data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
@@ -40,7 +40,7 @@ class LoanCommitteeDetail(APIView):
     
     def patch(self, request, pk):
         loan = self.get_object(pk)
-        serializer = LoanCommitteeSerializer(loan, data=request.data, partial=True)
+        serializer = LoanCommitteeSerializerInsert(loan, data=request.data, partial=True)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
