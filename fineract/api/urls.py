@@ -11,5 +11,4 @@ urlpatterns = [
     path('userdetail', UserDetail ), 
     path('allsaving', CustomerAllSavings), 
     path('clientloanplan', GetClientLoanPlan), 
-    
 ]

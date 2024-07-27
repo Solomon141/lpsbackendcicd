@@ -104,7 +104,9 @@ urlpatterns = [
     
     # disbursements
     path('disbursements/', include('disbursement.api.urls')),
+    
     path('withdrawals/', include('withdrawal.api.urls')),
+    path('withdrawcustomers/', include('withdrawcustomer.api.urls')),
     path('withdrawaldetails/', include('withdrawaldetail.api.urls')),
     
     

@@ -76,6 +76,7 @@ INSTALLED_APPS = [
     'woreda',
     'holidays',
     'disbursement',
+    'withdrawcustomer',
     'withdrawal',
     'withdrawaldetail',
 ]
