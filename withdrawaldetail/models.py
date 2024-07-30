@@ -6,7 +6,7 @@ from withdrawal.models import Withdrawal
 # Create your models here.
 class WithdrawalDetail(models.Model):
     # account Details
-    withdrawal = models.ForeignKey(Withdrawal, related_name="withdrawal", on_delete=models.CASCADE)
+    withdrawaldetail = models.ForeignKey(Withdrawal, related_name="withdrawaldetail", on_delete=models.CASCADE)
     amount = models.FloatField(default=0)
 
     # plan Details
@@ -22,9 +22,16 @@ class WithdrawalDetail(models.Model):
         User, related_name="withdrawalcheckissuedby", on_delete=models.CASCADE, null=True, blank=True)
     checkIssuedDate = models.DateField(null=True, blank=True)
     
-    isDisbursed = models.BooleanField(default=False)
-    disbursedby = models.ForeignKey(
-        User, related_name="withdrawaldisbursedby", on_delete=models.CASCADE, null=True, blank=True)
+    # check accepted and processing to give to customers
+    isAccepted = models.BooleanField(default=False)
+    acceptedBy = models.ForeignKey(
+        User, related_name="withdrawalacceptedby", on_delete=models.CASCADE, null=True, blank=True)
+    acceptedDate = models.DateField(null=True, blank=True)
+    
+    isDelivered = models.BooleanField(default=False)
+    deliveredBy = models.ForeignKey(
+        User, related_name="withdrawalddeliveredby", on_delete=models.CASCADE, null=True, blank=True)
+    deliveredDate = models.DateField(null=True, blank=True)
     
 
     def __str__(self):

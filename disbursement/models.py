@@ -26,9 +26,16 @@ class Disbursement(models.Model):
         User, related_name="checkissuedby", on_delete=models.CASCADE, null=True, blank=True)
     checkIssuedDate = models.DateField(null=True, blank=True)
     
-    isDisbursed = models.BooleanField(default=False)
-    disbursedby = models.ForeignKey(
-        User, related_name="disbursedby", on_delete=models.CASCADE, null=True, blank=True)
+    # check accepted and processing to give to customers
+    isAccepted = models.BooleanField(default=False)
+    acceptedBy = models.ForeignKey(
+        User, related_name="acceptedby", on_delete=models.CASCADE, null=True, blank=True)
+    acceptedDate = models.DateField(null=True, blank=True)
+    
+    isDelivered = models.BooleanField(default=False)
+    deliveredBy = models.ForeignKey(
+        User, related_name="deliveredBy", on_delete=models.CASCADE, null=True, blank=True)
+    deliveredDate = models.DateField(null=True, blank=True)
 
     
     def str(self):

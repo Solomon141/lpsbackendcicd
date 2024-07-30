@@ -1,8 +1,9 @@
 from django.db import models
 from datetime import date
-
+import uuid
 # Create your models here.
 class WithdrawCustomer(models.Model):
+    id = models.UUIDField(default=uuid.uuid4, primary_key=True, editable=False)
     entityAccountNo = models.CharField(max_length=255)
     entityExternalId = models.IntegerField()
     activationDate = models.DateField()
@@ -42,7 +43,7 @@ class WithdrawCustomer(models.Model):
     reviewercomment = models.TextField(blank=True)
 
     class Meta:
-        unique_together = ( "entityAccountNo", "entityExternalId" )
+        unique_together = ("id", "entityAccountNo", "entityExternalId" )
 
     def __str__(self):
-        return self.amDisplayName
+        return self.id

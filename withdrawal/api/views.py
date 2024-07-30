@@ -51,12 +51,12 @@ class WithdrawalDetail(APIView):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-class WithdrawByExternalID(generics.ListCreateAPIView):
+class WithdrawByCustomerID(generics.ListCreateAPIView):
     serializer_class = WithdrawalSerializer
 
     def get_queryset(self):
-        externalId = self.kwargs['externalId']
-        return Withdrawal.objects.filter(externalId = externalId)
+        customerId = self.kwargs['customerId']
+        return Withdrawal.objects.filter(customerId = customerId)
     
     
 class BulkInsertWithdrawal(generics.CreateAPIView):

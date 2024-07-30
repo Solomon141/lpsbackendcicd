@@ -19,6 +19,7 @@ class CustommerSingle(models.Model):
     approvedAt = models.DateField(auto_now_add=False, null=True, blank=True)
     
     isMandatory = models.BooleanField(default=True)
+    markValue = models.IntegerField()
    
     class Meta:
         unique_together = ("parent", "checkListId" )

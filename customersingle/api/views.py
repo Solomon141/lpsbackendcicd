@@ -66,3 +66,16 @@ class BulkInsert(generics.CreateAPIView):
 
     def perform_bulk_create(self, serializer):
         serializer.save()
+        
+        
+        
+class CustommerSingleDeleteView(APIView):
+    def delete(self, request, parent):
+        try:
+            # parent = CustommerSingle.objects.get(id=parent_id)
+            CustommerSingle.objects.filter(parent=parent).delete()
+            return Response(status=status.HTTP_204_NO_CONTENT)
+        except CustommerSingle.DoesNotExist:
+            return Response({"error": "Parent not found"}, status=status.HTTP_404_NOT_FOUND)
+        except Exception as e:
+            return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)

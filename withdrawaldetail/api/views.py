@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status, generics
 from withdrawaldetail.models import WithdrawalDetail
-from .serializers import WithdrawalDetailSerializer
+from .serializers import WithdrawalDetailSerializer, WithdrawalDetailSerializerInsert
 
 class WithdrawalDetailList(APIView):
     def get(self, request):
@@ -11,7 +11,7 @@ class WithdrawalDetailList(APIView):
         return Response(serializer.data)
 
     def post(self, request):
-        serializer = WithdrawalDetailSerializer(data=request.data)
+        serializer = WithdrawalDetailSerializerInsert(data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)

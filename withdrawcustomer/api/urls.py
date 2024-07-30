@@ -3,7 +3,7 @@ from .views import WithdrawCustomerList, WithdrawCustomerDetail, GetUserByExtern
 
 urlpatterns = [
     path('withdrawcustomers/', WithdrawCustomerList.as_view(), name='Withdrawcustomer-list'),
-    path('withdrawcustomers/<int:pk>/', WithdrawCustomerDetail.as_view(), name='Withdrawcustomer-detail'),
+    path('withdrawcustomers/<str:pk>/', WithdrawCustomerDetail.as_view(), name='Withdrawcustomer-detail'),
     path('clientbyexternalid/<str:entityExternalId>', GetUserByExternalID.as_view()),
     path('clientbyaccountnumber/<str:entityAccountNo>', GetUserByFineractCustID.as_view()),
 ]
